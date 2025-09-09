@@ -45,7 +45,7 @@ struct node* srright(struct node* k2){
     k2->right=k1->left;
     k1->left=k2;
     k2->height=max(fheight(k2->left),fheight(k2->right))+1;
-    k1->height=max(fheight(k1->left),k2->height)+1;
+    k1->height=max(fheight(k1->right),k2->height)+1;
     return k1;
 }
 
