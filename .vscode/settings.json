@@ -2,6 +2,13 @@
     "files.associations": {
         "iostream": "cpp",
         "xutility": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "vector": "cpp",
+        "xlocinfo": "cpp",
+        "xstring": "cpp"
     }
 }
